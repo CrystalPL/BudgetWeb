@@ -1,0 +1,30 @@
+.aside-color {
+    background-color: #6F5CC2;
+}
+
+.nav-item-button {
+    height: 45px;
+}
+
+.nav-item-button:hover {
+    background-color: #A89DDA;
+}
+
+.nav-item-button:focus {
+    background-color: #7156DD;
+}
+
+.nav-item-active {
+    background-color: #6050a6;
+}
+
+@media (max-width: 768px) {
+    aside {
+        display: none;
+    }
+}
+
+.expandable-sidebar {
+    visibility: visible !important;
+    width: 40%;
+}

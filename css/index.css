@@ -1,0 +1,13 @@
+.header-color {
+    background-color: #52438F;
+}
+
+@media (max-width: 768px) {
+    .sidebar-button {
+        display: flex !important;
+    }
+}
+
+.sidebar-button {
+    display: none;
+}

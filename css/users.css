@@ -1,0 +1,49 @@
+.users {
+    background-color: #f4f4f4;
+    height: 70px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.add-user-button {
+    margin-left: 40px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border-color: #CDD1D6;
+    color: #52438f;
+    border-style: solid;
+    width: 170px;
+    height: 50px;
+    border-width: 1px;
+    font-size: 16px;
+}
+
+.add-user-button:hover {
+    background-color: #EBE9F6;
+    border-color: #CDD1D6;
+    border-width: 1px 1px 1px 1px;
+    font-size: 14px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border-top: 2px solid #c8c8c8 !important;
+    color: #52438F;
+    border-right: 1px solid #ededed !important;
+}
+
+td {
+    border: 1px solid #ededed !important;
+    color: #52438f;
+    word-wrap: break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
